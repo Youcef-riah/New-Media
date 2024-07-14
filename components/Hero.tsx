@@ -6,11 +6,16 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    
+    <div id="Hero" className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
        */}
+       
+       
+        
+       
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -18,7 +23,7 @@ const Hero = () => {
         />
         <Spotlight
           className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="#0b1923"
+          fill="white"
         />
         <Spotlight
           className="left-80 top-28 h-[80vh] w-[50vw]"
@@ -31,6 +36,9 @@ const Hero = () => {
        *  change bg color to bg-black-100 and reduce grid color from
        *  0.2 to 0.03
        */}
+    
+
+      
       <div
         className="h-screen w-full dark:bg-whitw bg-[#0b1923] dark:bg-grid-white/[0.1] bg-grid-white/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
@@ -43,20 +51,31 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+
+      <div className="flex md:justify-center lg:justify-left relative my-20  z-10">
+ 
+
+
+        
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col  lg:items-left lg:justify-center ">
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
-           */}
-          <TextGenerateEffect
-            words="DIGITAL MARKETING & CREATIVE AGENCY"
-            className="text-center text-[200px] md:text-5xl lg:leading-3 lg:text-8xl"
-          />
+          */}
 
-          <p className="text-center text-white md:tracking-wider mb-4 text-sm md:text-lg  lg:text-2xl">
-            We Help Brands & Businesses Gain a Competitive Advantage in the
+
+         
+          <TextGenerateEffect
+            words="DIGITAL MAREKTING & CREATIVE AGENCY"
+            className="text-left text-[30px] md:text-5xl lg:text-5xl mt-[-20px]"
+          />
+          
+  
+          
+
+          <p className="text-left text-white md:tracking-wider mb-4 text-sm md:text-lg  lg:text-xl">
+            We Help Brands & Businesses Gain a Competitive Advantage in the6
             Connected World.
           </p>
 
@@ -65,9 +84,12 @@ const Hero = () => {
               title="our work"
               icon={<FaLocationArrow />}
               position="right"
+
             />
           </a>
         </div>
+          <img className="lg:w-[670px] lg:h-[670px] " src="/Artboard.png" alt="" />
+
       </div>
     </div>
   );

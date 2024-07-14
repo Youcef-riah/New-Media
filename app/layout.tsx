@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "NEW MEDIA MARKETING ",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  description: "NEW MEDIA MARKETING Portfolio",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="" sizes="any" />
+        <link rel="icon" href="/NMM-white.svg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
