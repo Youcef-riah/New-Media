@@ -47,12 +47,12 @@ const Hero = () => {
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#0b1923]
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_40%,blue)]"
         />
       </div>
 
 
-      <div className="flex md:justify-center lg:justify-left relative my-20  z-10">
+      <div className="flex md:justify-center lg:justify-left max-lg:flex-col-reverse relative my-20  z-10">
  
 
 
@@ -88,7 +88,7 @@ const Hero = () => {
             />
           </a>
         </div>
-          <img className="lg:w-[670px] lg:h-[670px] " src="/Artboard.png" alt="" />
+          <img className="lg:w-[670px] lg:h-[670px]  " src="/Artboard.png" alt="" />
 
       </div>
     </div>

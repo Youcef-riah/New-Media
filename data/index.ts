@@ -2,7 +2,6 @@ export const navItems = [
   {name:'Home',link:'#Hero'},
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -13,8 +12,8 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "",
+    titleClassName: "mt-2 justify-end",
+    img: "/branding.jpg",
     spareImg: "",
   },
   {
@@ -22,15 +21,15 @@ export const gridItems = [
     title: "Help you reach the world",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    imgClassName: "w-full h-full",
     titleClassName: "justify-start",
-    img: "",
+    img: "/world.png",
     spareImg: "",
   },
   {
     id: 3,
     title: "Our expertice",
-    description: "we help you expand",
+    description: "help you expand",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -42,7 +41,7 @@ export const gridItems = [
     title: "enthusiasts with a passion for growth.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
+    imgClassName: "fill-white",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
@@ -73,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Pizzeria Brand Identity - Good Time",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: "",
-    link: "/ui.earth.com",
+    link: "https://www.behance.net/gallery/196669669/Pizzeria-Brand-Identity-Good-Time",
   },
   {
     id: 2,
