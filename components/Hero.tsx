@@ -66,10 +66,12 @@ const Hero = () => {
 
 
          
-          <TextGenerateEffect
-            words="DIGITAL MAREKTING & CREATIVE AGENCY"
-            className="text-left text-[30px] md:text-5xl lg:text-5xl mt-[-20px]"
-          />
+          <h1   className="text-left text-[30px] md:text-5xl lg:text-5xl font-bold mb-2 mt-[-20px]">
+
+            DIGITAL MAREKTING & CREATIVE AGENCY
+          
+          </h1>
+          
           
   
           
