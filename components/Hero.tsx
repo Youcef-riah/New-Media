@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     
-    <div id="Hero" className="pb-20 pt-36">
+    <div id="Hero" className=" pt-16">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
 
 
-      <div className="flex md:justify-center lg:justify-left max-lg:flex-col-reverse relative my-20  z-10">
+      <div className="flex md:justify-center lg:justify-left max-lg:flex-col-reverse relative my-20  z-20">
  
 
 
