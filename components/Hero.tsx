@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
 
 
-      <div className="flex md:justify-center lg:justify-left max-lg:flex-col-reverse relative my-20  z-20">
+      <div className="flex lg:justify-center lg:justify-left max-lg:flex-col-reverse relative my-20  z-20">
  
 
 
@@ -90,7 +90,7 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div >
+        <div className="max-xs:size-80">
 
           <img className="size-full  " src="/Artboard.png" alt="" />
         </div>

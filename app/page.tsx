@@ -14,8 +14,8 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 const Home = () => {
   return (
     <main className="z-20 relative bg-[#0b1923] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <img className=" z-10 absolute rotate-90 top-0 left-[900px] h-[450px] opacity-5" src="arab1.svg" alt="" />
-      <img className=" z-10 absolute rotate-90  top-0 right-[900px] h-[450px]  opacity-5" src="arab1.svg" alt="" />
+      <img className=" z-10 absolute rotate-90 top-0 left-[1000px] h-[450px] opacity-5" src="arab1.svg" alt="" />
+      <img className=" z-10 absolute rotate-90  top-0 right-[1000px] h-[450px]  opacity-5" src="arab1.svg" alt="" />
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
