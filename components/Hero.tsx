@@ -57,7 +57,7 @@ const Hero = () => {
 
 
         
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col  lg:items-left lg:justify-center ">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col items-left justify-center ">
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
@@ -90,7 +90,10 @@ const Hero = () => {
             />
           </a>
         </div>
-          <img className="lg:w-[670px] lg:h-[670px]  " src="/Artboard.png" alt="" />
+        <div >
+
+          <img className="size-full  " src="/Artboard.png" alt="" />
+        </div>
 
       </div>
     </div>
