@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Help you reach the world",
+    title: "Reach your audience everywhere, anywhere",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "w-full h-full",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Our expertice",
+    title: "What we do best",
     description: "help you expand",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "one of our projects",
+    title: "The inside scoop",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to start a project ! Let’s collaborate !",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Web Dev",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Development",
+    desc: "We create custom, responsive websites optimized for performance and user experience,tailored to your unique business needs.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Design",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Graphic Design",
+    desc: "We design visually stunning graphics that captivate your audience and reflect your brand’s unique identity,tailored to your specific needs.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "social media",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Social Media Management",
+    desc: "We manage and grow your social media presence,creating engaging content and strategies that connect with your audience and boost your brand.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Branding",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "We develop unique,compelling brand identities that resonate with your audience and set you apart from the competition.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
