@@ -77,7 +77,7 @@ const Hero = () => {
           
 
           <p className="text-left text-white md:tracking-wider mb-4 text-sm md:text-lg  lg:text-xl">
-            We Help Brands & Businesses Gain a Competitive Advantage in the6
+            We Help Brands & Businesses Gain a Competitive Advantage in the
             Connected World.
           </p>
 
