@@ -12,7 +12,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "mt-2 justify-end",
+    titleClassName: "mt-[50px]  justify-end",
     img: "/branding.jpg",
     spareImg: "",
   },

@@ -1169,6 +1169,18 @@ video {
 .mt-\[-20px\] {
   margin-top: -20px;
 }
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+.mt-\[55px\] {
+  margin-top: 55px;
+}
+.mt-\[50px\] {
+  margin-top: 50px;
+}
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
