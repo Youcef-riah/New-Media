@@ -22,7 +22,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
         Let’s get in touch and talk about how we can achieve your goals together.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:nezmediamarketing31@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
